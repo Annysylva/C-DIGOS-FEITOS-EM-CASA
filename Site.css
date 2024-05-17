@@ -1,0 +1,36 @@
+
+html{
+height: 100%;
+}
+body {
+ min-height: 100%;
+ background-color: #4B0150;
+ margin: 50px;
+ padding: 25px;
+}
+h1 {
+ color: white;
+ text-align: center;
+ font-family: Times New Roman;
+ }
+ h4 {
+  color: white;
+ }
+ p {
+  color: white;
+ }
+ img {
+  text-align: center;
+  border-radius: 5px;
+  border: solid 25px;
+  color: pink;
+ }
+ @keyframes colorChange {
+ 0% { filter: hue-rotate(0deg);
+ }
+ 50% { filter: hue-rotate(180deg); }
+ 100% { filter: hue-rotate(360deg); }
+ }
+ img.animated-color {
+ animation: colorChange 5s infinite;
+ }
