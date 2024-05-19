@@ -1,0 +1,62 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8c3c0;
+}
+/* Cabeçalho */
+header {
+    background-color: #B3093F;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+img {
+ border-radius: 40px;
+}
+/* Navegação */
+nav {
+    background-color: #451531;
+    color: #451531;
+    text-align: center;
+    padding: 0.5rem;
+    border: solid;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* Conteúdo principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+h1 {
+    color: white;
+}
+h2 {
+ color: #451531;
+ text-align: center;
+}
+h3 {
+ color: #451531;
+ text-align: center;
+}
+h4 {
+ color: white;
+}
+p {
+    color: white;
+}
+/* Rodapé */
+footer {
+    background-color: #451531;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
